@@ -21,7 +21,7 @@ if (favPlayer === 'ronaldo') {
 
 else if (favPlayer === 'messi') {
     document.write("<h4> You are  a fan of Barcelona </h4>")
-    favPlayerImg = '<img src=images/messi.jpg>'
+    favPlayerImg = '<img src=images/messi.jpg width=300 height=400>'
     favTeam = 'Barcelona'
 }
 
@@ -33,14 +33,14 @@ for (var i = 1; i <= favPlayerCounter; i++) {
 
 document.write(resultOfPlayer)
 
-var anime = confirm("Please confirm that your favourite team is" + favTeam)
+var yourFavPlayer = confirm("Please confirm that your favourite team is" + favTeam)
 
-if (anime == true) {
-    document.write("hello there!")
+if (yourFavPlayer == true) {
+    document.write("<p>You are a fan of "+favTeam+"</p>")
 }
 
 else {
-    document.write("Are you interested in Anime")
+    document.write("Are you interested in football")
 }
 
 var favColor = prompt("Please select your fav color").toLowerCase()
