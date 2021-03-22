@@ -28,10 +28,10 @@ else if (favPlayer === 'messi') {
 var favPlayerCounter = prompt('how many photos do you want for your fav player')
 var resultOfPlayer = ''
 for (var i = 1; i <= favPlayerCounter; i++) {
-    resultOfPlayer += "<h3>" + i + "</h3>" + favPlayerImg
+    resultOfPlayer +=   i  + favPlayerImg
 }
 
-document.write(resultOfPlayer)
+document.write("<main>"+resultOfPlayer+"</main")
 
 var yourFavPlayer = confirm("Please confirm that your favourite team is" + favTeam)
 

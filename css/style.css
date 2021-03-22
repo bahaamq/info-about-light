@@ -1,0 +1,93 @@
+body
+{
+    background-color:whitesmoke;
+    margin: 0%;
+    color:   #0a290a;
+}
+
+header
+{
+   
+    height: 80px;
+  
+    background-color: #b3ffb3  ;
+    
+}
+
+header h1{
+    float: left;
+   margin-left: 2%;
+}
+
+header nav
+{
+    float: right;
+    width: 30%;
+
+}
+
+header nav ul li 
+{
+    display: inline-block;
+    padding: 5px;
+margin: 2%;
+}
+
+header nav ul li a
+{
+    text-decoration: none;
+    
+    font-weight: 600;
+    color: #0a290a
+    ;
+}
+
+main{
+    text-align: center;
+
+}
+
+
+#lightInfo , #infoLightDemo,#intro
+{
+    margin: 2%;
+    background-color:#b3ffb3;
+
+    padding: 3%;
+}
+
+#intro
+{
+    width: 50%;
+   margin-left: 22%;
+}
+
+.lightInfo p
+{
+   margin-left: 24%;
+   width: 44%;
+margin-top: 3%;
+line-height: 170%;
+font-size: 20px;
+background-color:     whitesmoke;
+padding: 3%;
+}
+.lightInfo img
+{
+    margin: 1.2%;
+}
+
+footer
+{
+    text-align: center;
+    background-color: #b3ffb3
+    ;
+    padding: 1%;
+    
+}
+
+footer h6
+{
+    margin: 0%;
+    padding: 0%;
+}
