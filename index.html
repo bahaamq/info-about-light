@@ -5,6 +5,7 @@
 <head>
     <title> Light </title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/app.js"></script>
 </head>
 
 <body>
@@ -89,6 +90,33 @@
 
         </section>
 
+
+        <div class="fromJs">
+            <script>
+                document.write(getName("<h4>" + userName + "</h4>"));
+
+            </script>
+        </div>
+
+
+        <div class="fromJs">
+            <script>
+                while (!(favPlayer === 'messi' || favPlayer === 'ronaldo')) {
+                    favPlayer = prompt('Please Choose between messi and ronaldo').toLowerCase()
+                }
+
+                getFavPlayerandTeam(favPlayer);
+
+            </script>
+        </div>
+
+        <div class="fromJs">
+            <script>
+                document.write(getFavPlayerCounter())
+                changeColor()
+            </script>
+        </div>
+
     </main>
 
     <footer>
@@ -104,7 +132,7 @@
 
     </footer>
 
-    <!--<script src="javascript/app.js"></script> -->
+
 </body>
 
 </html>

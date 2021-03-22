@@ -48,7 +48,7 @@ main{
 }
 
 
-#lightInfo , #infoLightDemo,#intro
+#lightInfo , #infoLightDemo,#intro,.fromJs
 {
     margin: 2%;
     background-color:#b3ffb3;
